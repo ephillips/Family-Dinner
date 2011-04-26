@@ -1,1 +1,48 @@
-COMING SOON.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="description" content="A weekly meeting of Chicago's civic leaders" />
+<title>The Breakfast Review</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+
+<h1>Family Dinner</h1>
+
+<p>This week's family dinner will be held at:</p>
+<div id="loc">
+<a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=2120+N+campbell&aq=&sll=37.0625,-95.677068&sspn=28.058077,60.292969&ie=UTF8&hq=&hnear=2120+N+Campbell+Ave,+Chicago,+Illinois+60647&ll=41.922062,-87.690575&spn=0.003209,0.00736&z=17" target="_blank">2120 N Campbell<br>up the stairs</a>
+</div>
+
+<p>on</p>
+
+<div id="date">
+<script type="text/javascript" src="scripts/date.js"></script>
+<script type="text/javascript">
+var d=Date.today().wednesday().addDays(-1).toString('MMMM d, yyyy');
+
+document.write(d);
+</script>
+</div>
+<p>The chef week will be:</p>
+<div id="chef"><a href="http://www.facebook.com/profile.php?id=2911418" target="_blank">Allison Ringhand</a></div>
+
+
+<div="mentions">
+<p>Where will we dine next week? Who will cook?</p>
+
+<script type="text/javascript" src="scripts/mentions.js"></script>
+<script type="text/javascript" src="http://api.twitter.com/1/statuses/mentions.json"></script>
+</div>
+
+<!--<p id="credit">Photo courtesy of <a href="http://www.flickr.com/photos/denverjeffrey/3253911983/sizes/o/in/photostream/" target="_blank">Jeffrey Beall</a></p>-->
+</div>
+</body>
+</html>
