@@ -58,7 +58,7 @@ table{
 
 body {
 	font-family: Helvetica,Arial,Lucida Grande,sans-serif;
-	background: url('img/bg.jpg') no-repeat scroll center top transparent;
+	
 }
 
 #container {
@@ -116,4 +116,14 @@ a:hover {
 
 #map {
 	margin-left:180px;
+}
+
+img {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index: -5;
+	width:100%;
+	
+
 }
