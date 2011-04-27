@@ -58,6 +58,7 @@ table{
 
 body {
 	font-family: Helvetica,Arial,Lucida Grande,sans-serif;
+	background: url(img/bg.jpg) no-repeat center top transparent scroll;
 	
 }
 
